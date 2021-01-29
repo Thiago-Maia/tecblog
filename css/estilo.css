@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background: #e6e6e6;
+}
+
+/* Layout */
+
+/* header */
+#header {
+  background-color: #f7b600;
+  text-align: center;
+  padding: 20px;
+}
+
+#logo {
+  padding: 10px;
+  font-size: 1.3em;
+  margin: 10px;
+}
+
+.tec {
+  color: rgb(105, 105, 102);
+}
+
+.blog {
+  color: #fff;
+}
+
+#nav ul li {
+  display: inline;
+}
+
+#nav ul li a {
+  text-decoration: none;
+  padding: 8px 12px;
+  font-weight: 700;
+}
+
+#nav ul li a:link,
+:visited {
+  color: #fff;
+}
+
+#nav ul li a:hover {
+  color: #f7b600;
+  background: #fff;
+}
+
+/* main */
+
+/* main-content */
+
+#main {
+  width: 920px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+#main-content {
+  width: 660px;
+  float: left;
+}
+
+.post {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.post h2 {
+  color: #f7b600;
+}
+.post span {
+  font-size: 0.8em;
+  padding: 0px 0px 10px;
+  display: block;
+}
+
+.post img {
+  width: 620px;
+  margin-bottom: 20px;
+}
+
+.post p {
+  padding: 10px 0px;
+}
+
+.post a {
+  color: #f7b600;
+  text-decoration: none;
+}
+
+.post a:hover {
+  text-decoration: underline;
+}
+
+/* side bar */
+
+#side-bar {
+  width: 240px;
+  float: right;
+}
+
+.side-post {
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.side-post h3 {
+  background-color: #ccc;
+  padding: 5px;
+}
+
+.side-post ul li {
+  list-style: none;
+}
+
+.side-post ul li a {
+  color: #f7b600;
+  text-decoration: none;
+  padding: 8px 12px;
+  font-weight: 200;
+}
+
+.recent-posts {
+  font-size: 0.8em;
+  border-bottom: 1px dotted #ccc;
+  padding: 10px;
+}
+
+.recent-posts :last-child {
+  border: none;
+}
+
+.recent-posts p {
+  margin-bottom: 5px;
+}
+
+.recent-posts a {
+  color: #f7b600;
+  text-decoration: none;
+}
+
+.recent-posts a:hover {
+  text-decoration: underline;
+}
+
+/* footer */
+
+#footer {
+  clear: both;
+  text-align: center;
+  padding: 10px;
+  background-color: #ccc;
+}
