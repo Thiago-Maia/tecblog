@@ -51,20 +51,22 @@ body {
 #nav ul li a:hover {
   color: #f7b600;
   background: #fff;
+  transition: 700ms;
 }
 
 /* main */
-
-/* main-content */
-
 #main {
-  width: 920px;
+  width: 80%;
   margin: 0 auto;
   padding-top: 20px;
 }
 
+/* main-content */
+
+
+
 #main-content {
-  width: 660px;
+  width: 71.73%;
   float: left;
 }
 
@@ -84,7 +86,7 @@ body {
 }
 
 .post img {
-  width: 620px;
+  width: 98%;
   margin-bottom: 20px;
 }
 
@@ -104,7 +106,7 @@ body {
 /* side bar */
 
 #side-bar {
-  width: 240px;
+  width: 27%;
   float: right;
 }
 
